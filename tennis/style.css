@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.containe1{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 20px auto;
+    align-items: center;
+}
+.kort{
+    /* color: white; */
+    
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 50px auto;
+    line-height: 25px;
+}
+.prev{
+    /* margin: 20px 1540px; */
+    background: var(--accent, #8D86C9);
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.next {
+    background: var(--accent, #8D86C9);
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.btn_block {
+    display: flex;
+    gap: 30px;
+}
+
+.wrap {
+    max-width: 1400px;
+    margin: 25px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text{
+    text-align: center;
+    margin-right: 37px;
+}
